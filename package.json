@@ -1,0 +1,22 @@
+{
+  "name": "labb",
+  "version": "1.0.0",
+  "description": "For testing",
+  "main": "style.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lofgrenfredrik/labb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lofgrenfredrik/labb/issues"
+  },
+  "homepage": "https://github.com/lofgrenfredrik/labb#readme",
+  "dependencies": {
+    "babel": "6.5.2"
+  }
+}
