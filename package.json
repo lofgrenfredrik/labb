@@ -1,15 +1,38 @@
 {
   "name": "@lofgrenfredrik/labb",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "For testing",
-  "main": "index.js",
-  "scripts": {
-    "postinstall": "./scripts/postinstall.sh"
+  "dependencies": {
+    "@weahead/commitlint-config": "0.2.0",
+    "@weahead/eslint-config-react": "0.11.0",
+    "@weahead/husky-config": "0.4.3",
+    "@weahead/lint-staged-config": "0.4.0",
+    "@weahead/markdownlint-config": "0.1.0",
+    "@weahead/prettier-config": "0.2.0"
   },
-  "files": [
-    "index.js",
-    "scripts/*"
-  ],
+  "peerDependencies": {
+    "@commitlint/cli": ">=8",
+    "commitizen": ">=4",
+    "cz-conventional-changelog": ">=3",
+    "husky": ">=2",
+    "lint-staged": ">=8",
+    "package-change-checker": ">=1",
+    "prettier": ">=1",
+    "@commitlint/config-conventional": ">=8",
+    "@commitlint/prompt-cli": ">=8",
+    "babel-eslint": ">=9",
+    "eslint": ">=5",
+    "eslint-config-prettier": ">=4",
+    "eslint-plugin-babel": ">=5",
+    "eslint-plugin-json": ">=1",
+    "eslint-plugin-jsx-a11y": ">=6",
+    "eslint-plugin-prettier": ">=3",
+    "eslint-plugin-react": ">=7",
+    "eslint-plugin-react-hooks": ">=1",
+    "eslint-plugin-import": ">=2",
+    "eslint-plugin-simple-import-sort": ">=4",
+    "markdownlint-cli": "*"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lofgrenfredrik/labb.git"
@@ -17,39 +40,5 @@
   "bugs": {
     "url": "https://github.com/lofgrenfredrik/labb/issues"
   },
-  "homepage": "https://github.com/lofgrenfredrik/labb#readme",
-  "devDependencies": {
-    "@commitlint/cli": "8.2.0",
-    "@commitlint/config-conventional": "8.2.0",
-    "@commitlint/prompt-cli": "8.2.0",
-    "@weahead/commitlint-config": "0.2.0",
-    "@weahead/eslint-config-react": "0.11.0",
-    "@weahead/husky-config": "0.4.3",
-    "@weahead/lint-staged-config": "0.4.0",
-    "@weahead/markdownlint-config": "0.1.0",
-    "@weahead/prettier-config": "0.2.0",
-    "babel-eslint": "10.0.3",
-    "commitizen": "4.0.3",
-    "cz-conventional-changelog": "3.0.2",
-    "eslint": "6.5.1",
-    "eslint-config-prettier": "6.4.0",
-    "eslint-plugin-babel": "5.3.0",
-    "eslint-plugin-import": "2.18.2",
-    "eslint-plugin-json": "1.4.0",
-    "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-prettier": "3.1.1",
-    "eslint-plugin-react": "7.16.0",
-    "eslint-plugin-react-hooks": "2.1.2",
-    "eslint-plugin-simple-import-sort": "4.0.0",
-    "husky": "3.0.8",
-    "lint-staged": "9.4.2",
-    "markdownlint-cli": "0.18.0",
-    "package-change-checker": "1.2.4",
-    "prettier": "1.18.2"
-  },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  }
+  "homepage": "https://github.com/lofgrenfredrik/labb#readme"
 }
