@@ -1,6 +1,6 @@
 {
   "name": "@lofgrenfredrik/labb",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "For testing",
   "dependencies": {
     "@commitlint/cli": "8.2.0",
