@@ -2,6 +2,10 @@
   "name": "@lofgrenfredrik/labb",
   "version": "0.2.3",
   "description": "For testing",
+  "files": [
+    "package.json",
+    "README.md"
+  ],
   "dependencies": {
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
