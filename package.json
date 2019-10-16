@@ -1,6 +1,6 @@
 {
   "name": "@lofgrenfredrik/labb",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "For testing",
   "dependencies": {
     "@weahead/commitlint-config": "0.2.0",
@@ -9,29 +9,6 @@
     "@weahead/lint-staged-config": "0.4.0",
     "@weahead/markdownlint-config": "0.1.0",
     "@weahead/prettier-config": "0.2.0"
-  },
-  "peerDependencies": {
-    "@commitlint/cli": ">=8",
-    "commitizen": ">=4",
-    "cz-conventional-changelog": ">=3",
-    "husky": ">=2",
-    "lint-staged": ">=8",
-    "package-change-checker": ">=1",
-    "prettier": ">=1",
-    "@commitlint/config-conventional": ">=8",
-    "@commitlint/prompt-cli": ">=8",
-    "babel-eslint": ">=9",
-    "eslint": ">=5",
-    "eslint-config-prettier": ">=4",
-    "eslint-plugin-babel": ">=5",
-    "eslint-plugin-json": ">=1",
-    "eslint-plugin-jsx-a11y": ">=6",
-    "eslint-plugin-prettier": ">=3",
-    "eslint-plugin-react": ">=7",
-    "eslint-plugin-react-hooks": ">=1",
-    "eslint-plugin-import": ">=2",
-    "eslint-plugin-simple-import-sort": ">=4",
-    "markdownlint-cli": "*"
   },
   "repository": {
     "type": "git",
